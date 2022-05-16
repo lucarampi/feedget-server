@@ -4,7 +4,7 @@ import cors from 'cors'
 
 const app = express();
 
-app.use(cors);
+// app.use(cors);
 
 //Configure JSON body
 app.use(express.json());
